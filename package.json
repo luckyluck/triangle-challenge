@@ -1,0 +1,23 @@
+{
+    "name": "triangle-challenge",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/luckyluck/triangle-challenge.git",
+    "author": "alexander_ketov <alexander_ketov@epam.com>",
+    "license": "MIT",
+    "scripts": {
+        "test_es6": "mocha --require=babel-core/register src/**/*.spec.js",
+        "test_ts": "mocha -r ts-node/register src/**/*spec.ts"
+    },
+    "devDependencies": {},
+    "dependencies": {
+        "@types/chai": "^4.1.2",
+        "@types/mocha": "^2.2.48",
+        "babel-core": "^6.26.0",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+        "chai": "^4.1.2",
+        "mocha": "^5.0.1",
+        "ts-node": "^4.1.0",
+        "typescript": "^2.7.2"
+    }
+}
